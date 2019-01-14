@@ -1,0 +1,320 @@
+/* @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"); */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  color: rgb(180, 180, 180);
+}
+
+.speech-bubble {
+	position: relative;
+	background: #00546f;
+	border-radius: .4em;
+  color:white;
+  padding: 26px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 38px solid transparent;
+	border-right-color: #00546f;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -19px;
+	margin-left: -38px;
+}
+
+.speech-bubble-r {
+	position: relative;
+	background: #00546f;
+	border-radius: .4em;
+  color:white;
+  padding: 26px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.speech-bubble-r:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 38px solid transparent;
+	border-left-color: #00546f;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -19px;
+	margin-right: -38px;
+}
+
+.cdiv {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.cdiv3 {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.cdiv1 {
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.cdiv2 {
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.imgcenter {
+  margin: auto;
+  padding: 10px;
+}
+
+.title-text {
+  padding-top: 100px;
+  font-size: 2em;
+}
+
+.about_banner {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: rgb(0, 134, 177);
+  color: white;
+  height: 400px;
+}
+
+.resume_banner {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(0, 196, 108);
+  color: white;
+  height: 400px;
+}
+
+.project_banner {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(237, 143, 18);
+  color: white;
+  height: 400px;
+}
+
+.art_banner {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(199, 45, 82);
+  color: white;
+  height: 400px;
+}
+
+.resume {
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: .45em;
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;;
+}
+
+.filler{
+  height: 1000px;
+}
+
+.profile {
+  width: 10%;
+  height: 100%;
+  position: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%
+}
+
+.well{
+  background-color: rgba(0, 180, 72, 0.66);
+  color: white;
+  border-radius: .5em;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  font-size: 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+.center {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.icon {
+  font-size: 10em;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  height: 120px;
+}
+
+.text-light {
+  color: rgb(207, 207, 207);
+}
+
+.block {
+  padding-top: 40px;
+}
+
+.block-dark{
+  background-color: rgb(9, 57, 24);
+  color: white;
+}
+
+.title-secondary {
+  font-size: 1.5em;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 10;
+}
+
+.chunk {
+  height: 600px;
+  background-color: rgb(19, 19, 19);
+}
+
+.chunk-secondary {
+  height: 400px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/firewatch.jpg");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.second-parallax {
+  color: white;
+  /* The image used */
+  background-image: url("../img/purple_mountain.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-content {
+  height:1000px;
+  color: white;
+  font-size:36px;
+}
+
+.default {
+  background-color: rgb(227, 227, 227);
+  color: rgb(61, 61, 61);
+}
+.primary {
+  background-color: rgb(0, 134, 177);
+  color: white;
+}
+.success {
+  background-color: rgb(0, 196, 108);
+  color: white;
+}
+.warning {
+  background-color: rgb(237, 143, 18);
+  color: white;
+}
+.danger {
+  background-color: rgb(135, 15, 15);
+  color: white;
+}
+.info {
+  background-color: rgb(199, 45, 82);
+  color: white;
+}
+
+.default:hover {
+  background-color: rgb(203, 201, 201);
+  color: rgb(61, 61, 61);
+}
+.primary:hover {
+  background-color: rgb(4, 107, 140);
+  color: white;
+}
+.success:hover {
+  background-color: rgb(0, 143, 79);
+  color: white;
+}
+.warning:hover {
+  background-color: rgb(201, 121, 15);
+  color: white;
+}
+.danger:hover {
+  background-color: rgb(99, 11, 11);
+  color: white;
+}
+.info:hover {
+  background-color: rgb(161, 33, 64);
+  color: white;
+}
+
+.default-text {
+  color: rgb(227, 227, 227);
+}
+.primary-text {
+  color: rgb(0, 134, 177);
+}
+.success-text {
+  color: rgb(0, 196, 108);
+}
+.warning-text {
+  color: rgb(230, 158, 0);
+}
+.danger-text {
+  color: rgb(150, 34, 34);
+}
+.info-text {
+  color: rgb(199, 45, 82);
+}
